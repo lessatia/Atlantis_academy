@@ -1,0 +1,170 @@
+* {
+  padding-inline-start: 0;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  font-family: "Inter";
+  color: white;
+}
+
+.container {
+  background: #575478;
+}
+
+p {
+  margin: 40px 20px 40px 0;
+  font-size: 48px;
+  max-width: 1130px;
+}
+
+.note {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  letter-spacing: 0.08em;
+}
+
+.header {
+  max-width: 1520px;
+  margin: 0 auto;
+  padding: 40px 0 0 0;
+}
+
+.main {
+  max-width: 1520px;
+  margin: 0 auto;
+  padding-top: 619px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  
+}
+.menu {
+  display: flex;
+}
+.footer {
+  max-width: 1520px;
+  margin: 0 auto;
+  padding: 40px 0 40px 0;
+}
+@media (max-width: 1520px) {
+  .main,
+  .header {
+    margin: 0 200px;
+  }
+  .footer {
+    margin: 0 200px;
+    max-width: 1024px;
+  }
+}
+
+.tel,
+.mail {
+  padding: 0 60px 0 0;
+  font-style: none;
+  text-decoration: none; /* Убирает нижнее подчеркивание у ссылок */
+  font-size: 18px;
+  list-style-type: none; /* Убирает точки списка */
+}
+.social {
+  padding: 0 0;
+  font-style: none;
+  text-decoration: none; /* Убирает нижнее подчеркивание у ссылок */
+  font-size: 18px;
+  list-style-type: none; /* Убирает точки списка */
+}
+.logo_mob {
+  display: none;
+}
+.component {
+  position: absolute;
+  right: 20px;
+  top: 39px;
+  display: none;
+}
+
+@media (max-width: 1200px) and (min-width: 600px) {
+  .main {
+    max-width: 1024px;
+    padding: 0 0 0 40px;
+    margin: 661px 0 0 0;
+  }
+  .header {
+    margin: 0 40px;
+    padding: 40px 0 0 0;
+    max-width: 1024px;
+  }
+  .footer {
+    margin: 0 40px;
+    max-width: 1024px;
+    padding: 40px 0 40px 0;
+    font-size: 16px;
+  }
+  .note {
+    font-size: 16px;
+  }
+  p {
+    font-size: 40px;
+    max-width: 944px;
+    
+  }
+}
+@media (max-width: 599px) {
+  body {
+    height: 1040px;
+  }
+  .container {
+    height: 800px;
+    
+  }
+  .main {
+    max-width: 375px;
+    padding: 0 0 ;
+    margin: 397px 20px 0 ;
+  }
+  .header {
+    margin: 0 auto;
+    padding: 30px 0 0 20px;
+  }
+
+  .logo {
+    display: none;
+  }
+  .logo_mob {
+    display: flex;
+  }
+  .component {
+    position: absolute;
+    right: 20px;
+    top: 39px;
+    display: flex;
+  }
+
+  .note {
+    font-size: 14px;
+    
+  }
+  p {
+    font-size: 24px;
+    padding: 0 0  ;
+    margin: 32px 0 ;
+    
+  }
+  .footer {
+    padding: 0 0 ;
+    font-size: 14px;
+    margin: 32px 20px 32px;
+  }
+  .tel,
+  .mail {
+    padding: 0 23.5px 0 0;
+    font-size: 14px;
+    font-family: Arial;
+  }
+  .social {
+    margin: 0 -80px 0 0;
+    font-size: 14px;
+    font-family: Arial;
+  }
+}
