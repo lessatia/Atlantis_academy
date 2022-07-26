@@ -1,3 +1,3 @@
-const { sumModul } = require("./modul.js");
+import { sum } from "./modul.js";
 
-console.log(sumModul(6, 2));
+console.log(`sum result is: ${sum(1, 2, 3, 4)}`);
