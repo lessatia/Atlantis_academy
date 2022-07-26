@@ -1,2 +1,3 @@
-const sumModul = (a, b) => `sum result is: ${a + b}`;
-module.exports = { sumModul };
+const sum = (...args) => args.reduce((acc, arg) => acc + arg);
+
+export { sum };
