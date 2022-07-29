@@ -1,0 +1,10 @@
+{
+  "name": "@module_export/web_client",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "@module_export/admin": "1.0.0"
+  }
+}
