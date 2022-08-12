@@ -19,7 +19,7 @@ p {
   max-width: 1130px;
 }
 
-.note {
+.note { 
   font-size: 18px;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.5);
